@@ -10,6 +10,20 @@ Msgvault's first-party web UI is embedded in every release binary and served by
 directory at runtime. The transactional archive remains authoritative while the
 Parquet/DuckDB analytical cache supplies the interactive tables.
 
+These reference captures are hydrated from the orphan `docs-assets` branch when
+the documentation is built. They show the experimental analytical shell with
+the synthetic archive data used by the browser checks:
+
+<figure class="screenshot" data-lightbox>
+  <img src="/assets/static/analytical-dark-comfortable-darwin.png" alt="Experimental analytical web UI in dark theme with comfortable density" loading="lazy">
+  <figcaption>Dark theme with comfortable density.</figcaption>
+</figure>
+
+<figure class="screenshot" data-lightbox>
+  <img src="/assets/static/analytical-light-compact-darwin.png" alt="Experimental analytical web UI in light theme with compact density" loading="lazy">
+  <figcaption>Light theme with compact density.</figcaption>
+</figure>
+
 ## Start and discover the URL
 
 ```bash
